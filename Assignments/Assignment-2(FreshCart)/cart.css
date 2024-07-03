@@ -1,0 +1,411 @@
+body{
+    width: 100%;
+    margin: 0%;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+*{
+    box-sizing: border-box;
+}
+.flexcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clearfix{
+    clear: both;
+    display: table;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+.logo{
+    width: 30%;
+    height: 100px;
+    float: left;
+}
+.logo img{
+    width: 50%;
+    height: 60px;
+}
+.logo i{
+    font-size: 25px;
+    width: 50px;
+    color: green;
+}
+.search{
+    width: 40%;
+    float: left;
+    height: 100px;
+
+}
+.search input{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 5px;
+    
+}
+.search i{
+    position: absolute;
+    right: 1;
+    z-index:1;
+    margin-left: 550px;
+}
+
+.fav{
+    width: 30%;
+    height: 100px;
+    float: left;
+}
+.fav i{
+    margin: 10px;
+    font-size: 20px;
+    width: 20px;
+}
+.main{
+    width: 100%;
+    height: 500px;
+}
+.top{
+    width: 60%;
+    height: 500px;
+    background-color: white; 
+    float: left; 
+}
+.img{
+    width: 90%;
+    height: 450px;
+    background-image: url(pics/vegetables.jpg);
+    background-size: cover;
+    float: left;
+    color: white;
+    border-radius: 10px;
+    margin-left: 120px;
+}
+.img h1{
+    font-size: 44px;
+    margin: 2px;
+}
+.imgCont{
+    margin-left: 30px;
+    margin-top: 80px;
+}
+.top button{
+    background-color: rgb(44, 243, 44);
+    color: white;
+    width: 150px;
+    height: 50px;
+    margin-left: 30px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 15px;
+}
+.top i{
+    font-size: 20px;
+    font-weight: 900px;
+}
+.offers{
+    width: 40%;
+    height: 500px;
+    background-color: white; 
+    display: inline-block;
+    text-align: center;
+    padding: auto;
+}
+.off{
+    background-color:rgb(79, 158, 158);
+    width: 70%;
+    height: 40%;
+    display: inline-block;
+    margin-top: 30px;
+    background-image: url(pics/personalcare.png);
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 10px;
+    margin-right: 110px;
+    text-align: left;
+}
+.off h1{
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+.off p{
+    margin-left: 30px; 
+}
+.off button{
+    background-color: rgb(25, 25, 65);
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.season{
+    background-color: rgb(245, 174, 44);
+    width: 70%;
+    height: 40%;
+    display: inline-block;
+    margin-top: 30px;
+    background-image: url(pics/fruits.png);
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 10px;
+    margin-right: 110px;
+    text-align: left;
+}
+.season h1{
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+.season p{
+    margin-left: 30px;
+}
+.season button{
+    background-color: rgb(25, 25, 65);
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.Popular{
+    width: 100%;
+    height: 600px;
+}
+.Popular h1{
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.Products{
+    width: 14%;
+    height: 200px;
+    margin-left: 15px;
+    display: inline-block;
+}
+.circle{
+    width: 60%;
+    height: 130px;
+    border-radius: 50%;
+    background-color: #f0f3f2;
+    margin:auto;
+    margin-top: 20px;
+}
+.Products p{
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+.row1{
+    margin-left: 120px;
+}
+.row2{
+    margin-left: 120px;
+    margin-top: 30px;
+}
+.circle img{
+    width: 80%;
+    height: 90px;
+    border-radius: 50%;
+}
+.new-products{
+    width: 100%;
+    height: 800px;
+}
+.types{
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    float: left;
+}
+.types div{
+    width: 17%;
+    height: 100%;
+    margin-left: 120px;
+    background: white;
+    float: left;
+}
+.types div h1,p{
+    margin:auto;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+.types #button1{
+    margin-left: 20%;
+    margin-top: 25px;
+    height: 35px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: rgb(21, 235, 21);
+}
+.types button{ 
+    height: 35px;
+    background-color: transparent;
+    margin-left: 15px;
+    border: 0px;
+}
+.np{
+    width: 18%;
+    margin-left: 20px;
+    height: 380px;
+    float: left;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 0.5px solid black;
+}
+.nrow1{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.nrow2{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.np img{
+    width: 60%;
+    height: 60%;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.np div{
+    margin-left:20px ;
+    margin-bottom: 25px;
+}
+.np h4{
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+.np p{
+    margin-left:20px ;
+    display: inline;
+    margin-left: 2px;
+}
+.np #p1{
+    margin-left: 2px;
+    color: rgb(64, 244, 64);
+    text-decoration: line-through;
+}
+#InStock{
+    color: rgb(96, 250, 96);
+    display: inline;
+    margin-left: 60px;
+}
+#rate{
+    color: red;
+    margin-left: 20px;
+}
+.add{
+    width: 80%;
+    height: 250px;
+    background-color: #f0f3f2;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#Grocery{
+    width: 80%;
+    height: 80%;
+
+    border-radius: 5px;
+}
+#Grocery h1,p,button{
+    margin-left: 20px;
+}
+#Grocery button{
+    background-color: black;
+    color: white;
+    height: 50px;
+    border-radius: 5px;
+    width: 200px;
+}
+#store{
+display: inline-block;
+width:20%;
+}
+#store img{
+    width: 80%;
+}
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+}
+footer div{
+margin-left: 50px;
+display: inline-block;
+}
+.f{
+    margin-bottom: 100px;
+    margin-right: 60px;
+}
+.f1 div{
+    margin:40px;
+}
+.f1 p{
+    font-size: 16px;
+}
+#cat{
+    margin-left: 40px;
+}
+.payments{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    padding-top: 20px;
+}
+.payments h2{
+    float:left;
+    color:white
+}
+.payments img{
+    float: left;
+    height: 40px;
+    width: 50px;
+    margin: 10px;
+}
+#appstore{
+    margin-left: 500px;
+}
+.details{
+    width: 100%;
+    height: 400px;
+    background-image: url("pics/freshcart.jpeg");
+    background-size: 100% 100%;
+}
+.details div h2,p{
+    text-align: left;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.details div{
+    padding: 30px;
+}
+.details input{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    height: 30px;
+    width: 20%;
+}
+.details button{
+    height:40px ;
+    width: 100px;
+    background-color: rgb(19, 242, 19);
+    color: white;
+    border-radius: 5px;
+}
+#content{
+    padding-top: 100px;
+    margin-left: 30px;
+    margin-top: 50ppx;
+}

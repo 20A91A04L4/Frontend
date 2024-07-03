@@ -1,0 +1,486 @@
+body{
+    width: 100%;
+    margin: 0%;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+*{
+    box-sizing: border-box;
+}
+.flexcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clearfix{
+    clear: both;
+    display: table;
+}
+.top{
+    width: 100%;
+    height: 900px;
+    background-image: url("pics/handshake.jpg");
+    background-size: 100% 100%;
+}
+header{
+    width: 100%;
+    height: 100px;
+}
+header h1{
+    width: 20%;
+    height: 100%;
+    color: white;
+    float: left;
+    font-family: "Tiny5", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 44px;
+}
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+header div{
+    width: 80%;
+    height: 100%;
+    background-color:transparent;
+    float: left;
+    margin-left: 25%;
+}
+header div button{
+    margin-left: 20px;
+    height: 30px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: transparent;
+    color:white;
+    border: 1px solid white;
+}
+header div button:hover{
+    background-color: rgb(87, 143, 240);
+    color: white;
+}
+.content{
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+    font-size:24px;
+    font-weight: 900;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.content p{
+    font-size: 20px;
+}
+.content button{
+    background-color: aqua;
+    color: black;
+    margin: 10px;
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+}
+.content button:hover{
+    background-color: blue;
+    color: white;
+}
+.tech{
+    width: 80%;
+    background-color: transparent;
+    height: 350px;
+    margin-left:150px;
+    float:left;
+    color: white;
+    margin-top: 30px;
+}
+.tech div{
+    width: 25%;
+    height:350px ;
+    float: left;
+  
+}
+.techimg div{
+    background-color:lightcyan;
+    height: 50%;
+    width: 50%;
+    margin: 30px;
+    margin-left: 70px;
+    border-radius: 50%;
+}
+.techimg img{
+    height: 80%;
+    width: 80%;
+}
+.techimg h2{
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+    font-size:24px;
+}
+.techimg p{
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+    font-size:20px;
+}
+.experts{
+    height: 500px;
+    width: 100%;
+    background-color: lightslategray;
+    color: white;
+}
+.experts1{
+    width: 50%;
+    height: 500px;
+    text-align: center;
+    float: left;
+    padding: 100px;
+    font-size: larger;
+}
+.experts1 h1,p{
+    margin: 30px 0px 30px 0px;
+}
+.experts1 p{
+   line-height: 1.5;
+   font-size:large;
+}
+.experts1 button{
+    height: 50px;
+    width: 200px;
+    background-color: aqua;
+}
+.experts button:hover{
+    background-color: blue;
+    color: white;
+}
+.experts2{
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+.experts2 img{
+    width: 80%;
+    height: 80%;
+}
+.things{
+    background-color: lightgray;
+    width: 100%;
+    height: 500px;
+}
+.tools{
+    background-color: lightseagreen;
+    width: 100%;
+    height: 500px;
+}
+#dev{
+    height: 100%;
+}
+.wolco{
+    width: 100%;
+    height: 800px;
+    background-color: lightsteelblue;
+}
+.wolco1{
+    width:30%;
+    background-color: black;
+    float: left;
+    height: 800px;
+}
+.wolco1 img{
+    width: 100%;
+    height: 80%;
+}
+.wolco2{
+    width:70%;
+    float: left;
+    height: 800px;
+    text-align: center;
+    font-size: 24px;
+}
+.wc{
+    width: 100%;
+    height: 20%;
+    background-color: lightsteelblue;
+    border-bottom: 1px solid black;
+}
+.wc h1{
+    margin-top: 5px;
+}
+.table1{
+    width: 50%;
+    height: 80%;
+    float: left;
+    border-right: 1px solid black;
+}
+.table2{
+    width: 50%;
+    height: 80%;;
+    float: left;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+    padding: 5px;
+    margin: auto;
+  }
+.dashboard{
+    width: 80%;
+    height: 80%;
+}
+.table2 table{
+    width: 80%;
+    height: 35%;
+}
+.table2 .dashboard{
+    height: 30%;
+}
+table:hover{
+    background-color: lightskyblue;
+    color: black;
+}
+.offers{
+    background-color: black;
+    color: white;
+    height: 600px;
+    width: 100%;
+}
+.offers1{
+    width: 60%;
+    height: 600px;
+    float: left;
+    font-size: 20px;
+    padding-top: 50px;
+}
+.offers1 h1,p{
+    text-align: center;
+}
+.list{
+    margin-left: 50px;
+}
+.offers2{
+    width: 40%;
+    height: 600px;
+    float: left;
+}
+.offers2 img{
+    width: 100%;
+    height: 100%;
+}
+.motive{
+    background-color: lightcoral;
+    width: 100%;
+    height: 500px;
+}
+.motive1{
+    width: 50%;
+    height: 500px;
+    float: left;
+    position: relative;
+}
+.motive1 img{
+    width: 100%;
+    height: 100%;
+}
+.motive1 div{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    color: white;
+    padding: 100px;
+    padding-top: 150px;
+    text-align: center;
+}
+.motive1 button{
+    background-color: yellow;
+    color: black;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+}
+.motive2{
+    width: 50%;
+    height: 500px;
+    float: left;
+    position: relative;
+}
+.motive2 img{
+    width: 100%;
+    height: 100%;
+}
+.motive2 div{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    color: white;
+    padding: 100px;
+    padding-top: 150px;
+    text-align: center;
+}
+.motive2 button{
+    background-color: yellow;
+    color: black;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+}
+.motive button:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.5);
+}
+.client{
+    background-color: lightslategrey;
+    width: 100%;
+    height: 700px;
+}
+.feedback{
+    text-align: center;
+    padding: 20px 200px 20px 200px;
+    font-size: 20px;
+}
+.clients div{
+    width:25%;
+    height:400px ;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin: 0px 20px 20px 80px;
+    float: left;
+    padding: 10px 30px 10px 30px;
+    font-size: 18px;
+    text-align: center;
+}
+.clients div:hover{
+    background-color: white;
+    color: black;
+}
+.clients img{
+    width: 30%;
+    height: 20%;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+.ceo{
+    margin-top: 0px;
+    font-size: 15px;
+}
+.team{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 700px;
+}
+.about{
+    text-align: center;
+    padding: 20px 200px 20px 200px;
+    font-size: 20px;
+}
+.members div{
+    width:30%;
+    height:400px ;
+    background-color: rgb(6, 108, 108);
+    color: black;
+    border-radius: 5px;
+    float: left;
+    margin-right: 50px;
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+}
+.members div:hover{
+    background-color: white;
+    color: black;
+}
+.members img{
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 3px solid black;
+}
+.members p{
+    margin-top: 0;
+}
+.count{
+    width: 100%;
+    height: 200px;
+    background-image: url("pics/building.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.count div{
+    width: 33.33%;
+    height: 200px;
+    float: left;
+    border-right: 3px solid white;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+}
+.address{
+    text-align: center;
+    width: 100%;
+    height: 30%;
+    font-size: 16px;
+}
+.contact{
+    width: 100%;
+    height: 70%;
+    border-top: 1px solid white;
+}
+.contact div{
+    width: 25%;
+    height: 100%;
+    float: left;
+    font-size: 20px;
+    border-right: 1px solid white;
+    padding: 20px;
+    text-align: center;
+}
+.contact i{
+ font-size: 44px;
+}
+@keyframes forward {
+    from{
+       transform: scale(1);
+    }
+    to{
+        transform:scale(1.5)
+    }
+}
+.content h1{
+    animation-name: forward;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.experts1 button{
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-fill-mode: forwards;
+}
+@keyframes rotate {
+    from{
+        transform: rotatey(360deg);
+    }
+}
+.content button{
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count:2;
+    animation-fill-mode: forwards;
+}
+.offers2 img{
+    animation-name: rotate;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
